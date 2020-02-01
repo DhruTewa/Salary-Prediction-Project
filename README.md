@@ -42,6 +42,8 @@ The datasets have total of **two** *numerical variables* and **six** *categorica
 + While exploring it was found there were *5 observation* with **0** salary and hence it was showing below lower limit of 8.5, those observation are removed as a part of data cleaning process.
 + Values which are aboe the upper limit are because the jobType of those are higher managment profiles or with higher degree, so we can keep them in our data.
 
+![Salary Distribution](./images/SalaryDistribution.png)
+
 
 
 ### Training variable analysis
