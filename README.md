@@ -49,9 +49,24 @@ The datasets have total of **two** *numerical variables* and **six** *categorica
 ### Training variable analysis
 
 + The boxplot for jobtype is showing data as normal, the higher the designation then higher the salary
+
+![jobType vs salary](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/jobtype%20_vs_salary.png)
+
 + There is significant difference in salaries between the high school degree and masters or doctorate degree observation
+
+![degree vs salary](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/degree%20_vs_salary.png)
+
++ Salary is also varying depending upon the industry
+
+![industry vs salary](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/industry%20_vs_salary.png)
+
 + It is obvious, higher is the experience, higher is the salary
+
+![yearofExperience vs salary](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/yearofexperience_vs_salary.png)
+
 + The more far is the work location from the mertropolitan, the less is the salary
+
+![jobType vs salary](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/milesfrommetropolis_vs_salary.png)
 
 ### Features correlation
 
@@ -61,4 +76,7 @@ The datasets have total of **two** *numerical variables* and **six** *categorica
     + salary Vs major with *.38* value
     + salary Vs industry with *.3* value
     + salary Vs yearofexperience with *.38* value
+
 + There is a **negative correaltion** bewteen salary vs milesfrommertropolis with *-.3* value
+
+![Features_Correlation](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/features_correlation.png)
