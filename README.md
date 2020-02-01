@@ -26,7 +26,7 @@ The features in train_salaries are :
 
 The datasets have total of **two** *numerical variables* and **six** *categorical variables*
 
-## EDA
+## EDA([code](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Salary%20Prediction%20Project_EDA.ipynb))
 
 ### Basic observations
 
