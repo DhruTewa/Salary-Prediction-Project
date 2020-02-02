@@ -26,7 +26,7 @@ The features in train_salaries are :
 
 The datasets have total of **two** *numerical variables* and **six** *categorical variables*
 
-# Exploratory Data Analysis ([code](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Salary%20Prediction%20Project_EDA.ipynb))
+## Exploratory Data Analysis ([code](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Salary%20Prediction%20Project_EDA.ipynb))
 
 ### Basic observations
 
@@ -81,7 +81,8 @@ The datasets have total of **two** *numerical variables* and **six** *categorica
 
 ![Features_Correlation](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/features_correlation.png)
 
-## Model Developement
+## Model Developement([code](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Salary%20Prediction%20Project_Model%20Creation.ipynb))
+
 We will evaluate algorithms using the Mean Squared Error (MSE) metric. MSE will give a gross idea of how wrong all predictions are.We will use 10-fold cross-validation.
 
 For model developement we are selecting three linear models
@@ -100,7 +101,7 @@ The algorithms all use default tuning parameters. By comparing the below table M
 ![Model Comparision](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/model_comparision.png)
 
 
-## Model Tuning
+### Model Tuning
 
 To improve the performance of algorithms, ensemble methods is used. I have used two ensemble machine learning algorithms:
 
@@ -115,11 +116,11 @@ From we have got following results:
 |GBM  |357.16|
 |RF   |367.77|
 
-## Model Evaluation
+### Model Evaluation
 
 Seeing the above results from the training model we have **357.16** as the lowest **MSE** value and hence is the best model to use for predicting the salary.
 
-## Feature Importance:
+### Feature Importance:
 
 By looking at the graph below we can say that *yearofexperience* and *milesfrommetropolitan* are two major factors in predicting the salary.
 
