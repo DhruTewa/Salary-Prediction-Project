@@ -80,3 +80,66 @@ The datasets have total of **two** *numerical variables* and **six** *categorica
 + There is a **negative correaltion** bewteen salary vs milesfrommertropolis with *-.3* value
 
 ![Features_Correlation](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/features_correlation.png)
+
+## Model Developement
+We will evaluate algorithms using the Mean Squared Error (MSE) metric. MSE will give a gross idea of how wrong all predictions are.We will use 10-fold cross-validation.
+
+For model developement we are selecting three linear models
+- Linear Regression(LR)
+- Lasso Regression(LASO)
+- Elasctic Net(EN)
+
+The algorithms all use default tuning parameters. By comparing the below table MSE for Linear regression is the lowest and hence we will select it as the baseline model.
+
+|Model |MSE Value|
+|------|---------|
+|LR    |384.44  |
+|LASO  |496.58  |
+|EN    |824.97  |
+
+
+## Model Tuning
+
+To improve the performance of algorithms, ensemble methods is used. I have used two ensemble machine learning algorithms:
+
+- **Boosting Method** : Gradient Boosting (GBM).
+- **Bagging Method**  : Random Forests (RF)
+
+From we have got following results:
+
+|Model|MSE   |
+|-----|------|
+|LR   |384.44|
+|GBM  |357.16|
+|RF   |367.77|
+
+## Model Evaluation
+
+Seeing the above results from the training model we have **357.16** as the lowest **MSE** value and hence is the best model to use for predicting the salary.
+
+## Feature Importance:
+
+By looking at the graph below we can say that *yearofexperience* and *milesfrommetropolitan* are two major factors in predicting the salary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
