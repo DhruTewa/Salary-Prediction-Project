@@ -97,6 +97,8 @@ The algorithms all use default tuning parameters. By comparing the below table M
 |LASO  |496.58  |
 |EN    |824.97  |
 
+![Model Comparision](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/model_comparision.png)
+
 
 ## Model Tuning
 
@@ -121,6 +123,7 @@ Seeing the above results from the training model we have **357.16** as the lowes
 
 By looking at the graph below we can say that *yearofexperience* and *milesfrommetropolitan* are two major factors in predicting the salary.
 
+![Feature Importance](https://github.com/DhruTewa/Salary-Prediction-Project/blob/master/Images/feature_importance.png)
 
 
 
